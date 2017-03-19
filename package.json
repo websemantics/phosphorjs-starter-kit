@@ -14,12 +14,22 @@
     "tslint",
     "starter-kit"
   ],
+  "config": {
+    "deploy": {
+      "dist": "./dist/",
+      "name": "iAyeBot",
+      "email": "iayebot@websemantics.ca",
+      "branch": "master:gh-pages",
+      "message": "Deploy to gh-pages"
+    }
+  },
   "scripts": {
     "start": "webpack-dev-server --config webpack.conf.js --env development",
     "build": "webpack --config webpack.conf.js",
     "watch": "webpack --config webpack.conf.js --watch --progress --profile --colors --display-error-details --display-cached",
     "clean": "rimraf dist",
-    "deploy": "",
+    "deploy": "cd $npm_package_config_deploy_dist && git push --force --quiet \"https://${GH_TOKEN}@${GH_REF}\" ${npm_package_config_deploy_branch} > /dev/null 2>&1 ",
+    "predeploy": "cd $npm_package_config_deploy_dist && git init && git config user.name $npm_package_config_deploy_name && git config user.email $npm_package_config_deploy_email && git add -A . && git commit -am \"$npm_package_config_deploy_message\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
