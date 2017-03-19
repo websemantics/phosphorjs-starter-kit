@@ -111,7 +111,7 @@ function main(): void {
   bar.id = 'menuBar';
 
   let toggle = new Toggle({onLabel: 'ON', offLabel: 'OFF', command: 'toggle', commands: commands});
-  toggle.id = 'daylightToggle'
+  toggle.id = 'daylightToggle';
   bar.node.appendChild(toggle.node);
 
   let sidebar = new Sidebar();
