@@ -5,7 +5,6 @@ import '../style/button.css';
 
 export
 class Button extends Widget {
-  
   /**
    * The commands object.
    */
@@ -23,9 +22,9 @@ class Button extends Widget {
   }
 
   constructor(options: Button.IOptions) {
-    super({ node: Button.createNode(options.label) }); 
+    super({ node: Button.createNode(options.label) });
     this.command = options.command;
-    this.commands = options.commands;    
+    this.commands = options.commands;
     this.node.onclick = () => this.onclick();
     this.addClass('button');
   }

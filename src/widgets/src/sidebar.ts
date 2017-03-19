@@ -3,18 +3,18 @@ import '../style/sidebar.css';
 
 export
 class Sidebar extends Widget {
-  
+
   static createNode(): HTMLElement {
     let node = document.createElement('div');
     return node;
   }
 
   constructor() {
-    super({ node: Sidebar.createNode() }); 
+    super({ node: Sidebar.createNode() });
     this.addClass('sidebar');
   }
 
-  addWidget(widget: Widget){
+  addWidget(widget: Widget) {
     this.node.appendChild(widget.node);
   }
 

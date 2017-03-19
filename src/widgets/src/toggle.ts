@@ -5,7 +5,6 @@ import '../style/toggle.css';
 
 export
 class Toggle extends Widget {
-  
   /**
    * Widget state.
    */
@@ -30,9 +29,9 @@ class Toggle extends Widget {
   }
 
   constructor(options: Toggle.IOptions) {
-    super({ node: Toggle.createNode(options.onLabel, options.offLabel) }); 
+    super({ node: Toggle.createNode(options.onLabel, options.offLabel) });
     this.command = options.command;
-    this.commands = options.commands;    
+    this.commands = options.commands;
     this.node.onclick = () => this.onclick();
     this.addClass('toggle');
   }
