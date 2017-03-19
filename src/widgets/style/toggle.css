@@ -1,0 +1,45 @@
+.p-Widget.toggle {
+    font-size: 15px;
+    padding: 3px 10px;
+    min-width: 70px;
+    cursor: pointer;
+    color: #AAAAAA;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.p-Widget.toggle label {
+    display: inline-block;
+    padding: 1px 0 0 2px;
+    vertical-align: top;
+    font: 12px Helvetica, Arial, sans-serif;
+}
+
+.p-Widget.toggle label.off,
+.p-Widget.toggle.on label.on {
+    display: inline-block;
+}
+
+.p-Widget.toggle label.on,
+.p-Widget.toggle.on label.off {
+    display: none;
+}
+
+.p-Widget.toggle .btn {
+    font-size: 16px;
+}
+
+.p-Widget.toggle .btn:before {
+    content: "\F204";
+}
+
+.p-Widget.toggle.on .btn:before {
+    content: "\F205";
+}
+
+.p-Widget.toggle.on .btn:before {
+    color: #03A57B;
+    content: "\F205";
+}
+

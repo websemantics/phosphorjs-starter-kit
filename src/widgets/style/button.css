@@ -1,0 +1,29 @@
+.p-Widget.button {
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid #DDDDDD;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: .1rem;
+    line-height: 20px;
+    padding: 0 5px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.p-Widget.button:hover {
+    background-color: #f2f2f2;
+}
+
+.p-Widget.button:active {
+    background-color: #e6e6e6;
+}
+
+.p-Widget.button:focus {
+    outline: none;
+}
+
