@@ -78,12 +78,12 @@ function main(): void {
     }
   });
 
-  commands.addCommand('toggle', {
+  commands.addCommand('dark-toggle', {
     label: 'Toggle',
     mnemonic: 0,
     icon: 'fa fa-plus',
     execute: () => {
-      console.log('Toggle');
+     document.body.classList.toggle('--dark');
     }
   });
 
@@ -110,7 +110,7 @@ function main(): void {
   bar.addMenu(menu2);
   bar.id = 'menuBar';
 
-  let toggle = new Toggle({onLabel: 'ON', offLabel: 'OFF', command: 'toggle', commands: commands});
+  let toggle = new Toggle({onLabel: 'Dark', offLabel: 'Light', command: 'dark-toggle', commands: commands});
   toggle.id = 'daylightToggle';
   bar.node.appendChild(toggle.node);
 

@@ -26,20 +26,20 @@
     display: none;
 }
 
-.p-Widget.toggle .btn {
+.p-Widget.toggle .switch {
     font-size: 16px;
 }
 
-.p-Widget.toggle .btn:before {
+.p-Widget.toggle .switch:before {
     content: "\F204";
 }
 
-.p-Widget.toggle.on .btn:before {
+.p-Widget.toggle.on .switch:before {
     content: "\F205";
 }
 
-.p-Widget.toggle.on .btn:before {
-    color: #03A57B;
+.p-Widget.toggle.on .switch:before {
+    color: #FFFFFF;
     content: "\F205";
 }
 

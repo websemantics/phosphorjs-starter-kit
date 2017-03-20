@@ -16,11 +16,11 @@
 }
 
 .p-Widget.button:hover {
-    background-color: #f2f2f2;
+    background-color: rgba(0,0,0, 0.05);
 }
 
 .p-Widget.button:active {
-    background-color: #e6e6e6;
+    background-color: rgba(0,0,0, 0.1);
 }
 
 .p-Widget.button:focus {

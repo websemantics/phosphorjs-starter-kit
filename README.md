@@ -26,6 +26,10 @@
 - Based on the example code [@phosphor](https://github.com/phosphorjs/phosphor)
 - Experimental themes and widgets
 
+## Preview
+
+![Preview](https://raw.githubusercontent.com/websemantics/phosphorjs-starter-kit/master/preview.gif)
+
 ## Getting Started
 
 Clone this repository,

@@ -22,7 +22,7 @@ class Toggle extends Widget {
 
   static createNode(onLabel: string, offLabel: string): HTMLElement {
     let node = document.createElement('div');
-    node.innerHTML = `<i class='fa btn'></i>
+    node.innerHTML = `<i class='fa switch'></i>
                       <label class='on'>${onLabel}</label>
                       <label class='off'>${offLabel}</label>`;
     return node;

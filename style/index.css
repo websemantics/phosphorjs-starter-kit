@@ -11,6 +11,7 @@
 @import './widgets/menu.css';
 @import './widgets/menubar.css';
 @import './widgets/tabbar.css';
+@import './dark.css';
 
 body {
   display: flex;
