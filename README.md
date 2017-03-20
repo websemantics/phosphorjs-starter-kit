@@ -28,7 +28,7 @@
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/websemantics/phosphorjs-starter-kit/master/preview_1.gif)
+![Preview](https://raw.githubusercontent.com/websemantics/phosphorjs-starter-kit/master/preview.gif)
 
 ## Getting Started
 
