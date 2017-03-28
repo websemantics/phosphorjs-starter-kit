@@ -16,16 +16,6 @@
 
 #### [Try it](http://websemantics.github.io/phosphorjs-starter-kit/)
 
-## Features
-
-- Fast development configuration using [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
-- Maintain clean, error-free code with linting (feedback can be viewed @ Browser Console)
-- Live reload during development for convenience 
-- Consistent coding styles with [Editor Config](http://editorconfig.org)
-- Separate vendor and app script bundles
-- Based on the example code [@phosphor](https://github.com/phosphorjs/phosphor)
-- Experimental themes and widgets
-
 ## Preview
 
 ![Preview](https://raw.githubusercontent.com/websemantics/phosphorjs-starter-kit/master/preview.gif)
@@ -52,6 +42,16 @@ Start development server,
 ``` bash
 npm run start 
 ```
+
+## Features
+
+- Fast development configuration using [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
+- Maintain clean, error-free code with linting (feedback can be viewed @ Browser Console)
+- Live reload during development for convenience 
+- Consistent coding styles with [Editor Config](http://editorconfig.org)
+- Separate vendor and app script bundles
+- Based on the example code [@phosphor](https://github.com/phosphorjs/phosphor)
+- Experimental themes and widgets
 
 ## Support
 
