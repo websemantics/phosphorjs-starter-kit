@@ -9,8 +9,6 @@
 ```
 > A full-featured [Webpack](https://webpack.github.io/) + [PhosphorJS](http://phosphorjs.github.io/) starter kit with live reload, linting, and fast development setup.
 
-@gbraad been thinking along similar lines where software is built in layers (Docker-like) to manage complixity, each addresses a different concern which make it easier to understand,
-
 [![Build Status](https://travis-ci.org/websemantics/phosphorjs-starter-kit.svg?branch=master)](https://travis-ci.org/websemantics/phosphorjs-starter-kit) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/websemantics/phosphorjs-starter-kit/master/LICENSE.md) [![GitHub forks](https://img.shields.io/github/forks/websemantics/phosphorjs-starter-kit.svg)](https://github.com/websemantics/phosphorjs-starter-kit/network) [![GitHub stars](https://img.shields.io/github/stars/websemantics/phosphorjs-starter-kit.svg)](https://github.com/websemantics/phosphorjs-starter-kit/stargazers)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/websemantics/phosphorjs-starter-kit.svg)](http://isitmaintained.com/project/websemantics/phosphorjs-starter-kit "Percentage of issues still open") [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
